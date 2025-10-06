@@ -1182,10 +1182,8 @@
     border-radius: 16px;
   }
   .contact-map__actions {
-    flex-direction: row;
+    flex-direction: column;
     gap: 12px;
-    justify-content: center;
-    flex-wrap: nowrap;
   }
   .contact-map {
     padding: 40px 0;
@@ -1259,18 +1257,8 @@
     align-items: center;
   }
   .contact-map__actions {
-    flex-direction: row;
     gap: 12px;
     margin-top: 20px;
-    justify-content: center;
-    flex-wrap: nowrap;
-  }
-  
-  /* Ensure buttons stay side by side on small screens */
-  .contact-map__actions .btn {
-    min-width: 140px;
-    padding: 10px 16px;
-    font-size: 14px;
   }
   .contact-map__frame {
     min-height: 200px;
